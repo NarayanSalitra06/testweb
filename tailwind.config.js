@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         josefin: ['Josefin', 'sans-serif'],
+        Ubuntu: ['Ubuntu', 'sans-serif'],
       },
       fontSize: {
         10: '10px',

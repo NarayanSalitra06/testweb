@@ -1,21 +1,18 @@
 import React, { Fragment } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { setUI } from '@/redux/actions';
-import colors from '@/api/ui';
+// import { useDispatch, useSelector } from 'react-redux';
+// import { setUI } from '@/redux/actions';
 
 function Welcome() {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const { color } = useSelector((state) => state.ui);
-
-  const toggleColor = () => {
-    const color = colors[Math.floor(Math.random() * colors.length)];
-    dispatch(setUI({ color }));
-  };
+  // const toggleColor = () => {
+  //   const color = colors[Math.floor(Math.random() * colors.length)];
+  //   dispatch(setUI({ color }));
+  // };
 
   return (
     <Fragment>
-      <h1 style={{ color }}>React Template with Webpack and Babel</h1>
+      {/* <h1 style={{ color }}>React Template with Webpack and Babel</h1>
       <p className="text-white">*Change text color by click on image</p>
       <img
         src="/images/react.png"
@@ -23,7 +20,7 @@ function Welcome() {
         onClick={toggleColor}
         alt="react"
         style={{ cursor: 'pointer' }}
-      />
+      /> */}
     </Fragment>
   );
 }

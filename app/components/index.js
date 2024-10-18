@@ -8,3 +8,12 @@ export { default as Loading } from './Loading';
 export const Welcome = loadable(() => import('./Welcome'), {
   fallback: <Loading />,
 });
+export const Registration = loadable(() => import('./Registration'), {
+  fallback: <Loading />,
+});
+export const QuizQuestion = loadable(() => import('./QuizQuestion'), {
+  fallback: <Loading />,
+});
+export const Result = loadable(() => import('./Result'), {
+  fallback: <Loading />,
+});

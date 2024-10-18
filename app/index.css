@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 @layer base {
   input:-webkit-autofill,
@@ -25,7 +26,7 @@
     @apply overflow-x-hidden text-base;
   }
   body {
-    @apply font-josefin text-white bg-primary-100;
+    @apply font-josefin ;
   }
   p {
     @apply leading-6;
@@ -131,7 +132,37 @@
   visibility: visible;
   animation: show 0.5s forwards;
 }
+.checkoutbg{
+  background:  #DFF3FB
 
+
+}
+.paybtnbg{
+  background: rgb(105, 143, 196);
+
+}
+.testbg{
+  background-image: url("../public/images/textbg.jpg");
+}
+.topbg{
+  border: 2px;
+ border-color:rgb(95, 139, 201); ; 
+ 
+}
+
+
+
+.regbg{
+  background: rgb(93, 152, 197);
+
+}
+.resultbg{
+  background: rgb(146,130,64);
+background: radial-gradient(circle, rgba(146,130,64,1) 0%, rgba(229,203,149,1) 100%);
+}
+.resultcirclebg{
+  background: #967f22
+}
 @keyframes show {
   0% {
     transform: translate(-15px, 15px) scale(0);
